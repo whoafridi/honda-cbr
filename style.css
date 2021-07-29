@@ -8,8 +8,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-.container-fluid{
+.top{
     background-color: #264653;
+    
+    margin: 0 auto;
 }
 .header{
     font-style: normal;
@@ -22,7 +24,7 @@ body{
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
 .hero{
     font-weight: 600;
@@ -30,6 +32,61 @@ body{
     line-height: 72px;
     color: #0A0826;
 }
+.btn-bike{
+    background-color: #E76F51;
+    border: none;
+}
+.btn-bike:hover{
+    background-color: coral;
+    border: none;
+}
 span{
     color: #E76F51;
+}
+.img {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+  }
+.icons{
+      color: #E77C40;
+  }
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.2px;
+    /* primary-color */
+    color: #23A6F0;
+    margin: 15px 0px;
+}
+.desg{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 15px 0px;
+}
+.accordion-item{
+    border: none;
+    background: #FFFFFF;
+    border: 1px solid #D5E5FB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 14px
+}
+.accordion-button > text{
+    border: none;
+    background: #FFFFFF;
+    color: black;
+}
+.accordion-button:hover >text{
+    border: none;
+    background: #FFFFFF;
+}
+.header-bike{
+    /* margin: 10px 10px; */
+    padding: 50px 100px;
 }
