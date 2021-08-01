@@ -4,4 +4,4 @@ live site : https://bike-hunt.netlify.app/
 
 
 ### Output
-![[image]](/images/Honda-cbr assignment.png)
+![[image]](/images/Honda-cbr-assignment.png)
